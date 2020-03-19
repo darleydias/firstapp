@@ -71,7 +71,7 @@ module.exports = (router)=>{
             res.send(e)
         }
     })
-    // ###################   DELETA UM usuario #####################
+    // ###################   DELETA UM usuario ########################
     router.delete("/register/:id",verifyToken,(req,res)=>{
         try{
             let idUser  = req.params.id
