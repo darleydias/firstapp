@@ -5,6 +5,7 @@ var app = express()
 var router = express.Router()
 
 // controllers xxxx tttttt 888888 
+// Estou testando
 
 var produtosController = require('./app/controllers/produtosControllers')
 var loginController = require('./app/controllers/usuarioController')
