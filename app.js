@@ -16,8 +16,6 @@ router.use(bodyParser.json())
 
 produtosController(router)
 loginController(router)
-console.log("Recebereis poder dos céus")
-console.log("Recebereis poder dos céus")
 app.use("/",router)
 
 /*ENDPOINT
