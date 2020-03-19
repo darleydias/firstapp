@@ -16,7 +16,7 @@ router.use(bodyParser.json())
 
 produtosController(router)
 loginController(router)
-
+console.log("test")
 app.use("/",router)
 
 /*ENDPOINT
