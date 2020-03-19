@@ -1,0 +1,44 @@
+npm install --s --g express 
+// --g global
+// --s no contexto do meu projeto
+
+npm install
+//cria o 
+Json viwer - extensão do crome para melhorar a aparencia do json 
+Swagger - ferramentas para documentar API
+npm i --g nodemon
+npm i --g nodemon@1.2.2 // instala a versao especifica
+// para criar a estrutura de node
+npm init
+//##############
+apachectl start
+npm i body-parser --s 
+//--s instala no contexto de projeto
+mysql.server start
+mysql -u darley -p
+//sem senha
+// troquei a senha do root
+sudo mysqladmin -u root password 123456
+ai entrei: sudo mysql -u root -p
+google cloud plataform - ver
+heroko
+
+
+use BD_FIRSTAPP;
+
+create table USUARIO(
+ID CHAR(38) NOT NULL,
+NOME VARCHAR(50) NOT NULL,
+LOGIN VARCHAR(50) NOT NULL,
+PASSWORD VARCHAR(50) NOT NULL,
+DATA_HORA_CRIACAO DATETIME NOT NULL,
+DATA_HORA_ULTIMO_ACESSO DATETIME NOT NULL,
+CONSTRAINT PK_USUARIO PRIMARY KEY(ID)
+)
+
+// ECRIPTANDO senha
+npm 1i --s bcryptjs
+adiciona no controler: var bcryptjs =require("bcryptjs")
+// JWT - PACOTE PARA GERAR TOKEN
+npm i --s jsonwebtoken
+

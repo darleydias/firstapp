@@ -1,0 +1,16 @@
+{
+  "name": "firstapp",
+  "version": "1.0.0",
+  "description": "Projeto de teste para conexão com mysql",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Darley",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1"
+  }
+}
