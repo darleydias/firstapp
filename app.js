@@ -4,7 +4,7 @@ var bodyParser = require('body-parser')
 var app = express()
 var router = express.Router()
 
-// controllers xxxx 
+// controllers xxxx tttttt 888888 
 
 var produtosController = require('./app/controllers/produtosControllers')
 var loginController = require('./app/controllers/usuarioController')
